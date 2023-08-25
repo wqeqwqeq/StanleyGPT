@@ -1,0 +1,10 @@
+venv
+*ipynb*
+gpt3_logs/*
+!gpt3_logs/test
+notes/*
+!notes/test
+chat_logs/*
+!chat_logs/test
+
+__pycache__

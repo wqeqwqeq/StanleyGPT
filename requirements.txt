@@ -1,0 +1,5 @@
+flask
+markupsafe
+openai
+markdown
+numpy
