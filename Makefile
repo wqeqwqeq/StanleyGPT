@@ -98,8 +98,7 @@ activate:
 	source ./venv/Scripts/activate
 	pip install -r requirements.txt
 
-venv:
-	python -m venv venv
+
 
 commit:
 	git add .
@@ -118,4 +117,5 @@ start:
 start_debug:
 	source venv/Scripts/activate
 	flask --app app run --debug
-
+create_venv:
+	ipython kernel install --user --name=${venv}
